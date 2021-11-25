@@ -11,7 +11,7 @@ export default function Service() {
         </div>
        
         <div className="container">
-          <div className="card mx-3 shadow-lg border-0 mt-5">
+          <div className="card mx-3 shadow-lg border-0 mt-5 itemCard">
             <div className="row g-0">
               <div className="col-md-8">
                 <img src="images/24393.jpg" className="img-fluid rounded-start" alt="..."/>
@@ -26,7 +26,7 @@ export default function Service() {
             </div>
           </div>
           <div className="card-deck d-flex w-100 my-5">
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img height="120px" className=" mx-auto my-5" src="images/Groupserach.png" alt=""/>
 
               <div className="card-body">
@@ -35,7 +35,7 @@ export default function Service() {
                 </p>
               </div>
             </div>
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img  height="120px" className=" mx-auto my-5" src="images/Framebottol.png" alt=""/>
               <div className="card-body">
                 <h3 className="card-title text-primary fw-bold">Online pharmacy
@@ -45,7 +45,7 @@ export default function Service() {
                 
               </div>
             </div>
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img  height="120px" className=" mx-auto my-5" src="images/a.png" alt=""/>
               <div className="card-body">
                 <h3 className="card-title text-primary fw-bold">Ambulance</h3>
@@ -56,7 +56,7 @@ export default function Service() {
             </div>
           </div>
           <div className="card-deck d-flex w-100">
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img  height="120px" className=" mx-auto my-5" src="images/Framedetals.png" alt=""/>
               <div className="card-body">
                 <h3 className="card-title text-primary fw-bold">Health Blog
@@ -66,7 +66,7 @@ export default function Service() {
                 
               </div>
             </div>
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img  height="120px"  className=" mx-auto my-5 px-3" src="images/Frameemergency.png" alt=""/>
 
               <div className="card-body">
@@ -75,7 +75,7 @@ export default function Service() {
                 </p>
               </div>
             </div>
-            <div className="card w-50 m-md-3 shadow-lg border-0 text-center">
+            <div className="card w-50 m-md-3 shadow-lg border-0 text-center itemCard">
               <img   height="120px" className=" mx-auto my-5 fw-bold" src="images/Frametrocking.png" alt=""/>
 
               <div className="card-body">

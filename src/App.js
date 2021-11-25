@@ -1,19 +1,16 @@
 import React from 'react'
-import About from './Components/About'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
-import Introduction from './Components/Introduction'
-import Service from './Components/Service'
 import './App.css'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import HomePage from './Pages/Home/HomePage'
+import Covid from './Pages/Covid Care/Covid'
 
 export default function App() {
     return (
-        <div>
-        <Header />
-        <Introduction />
-        <Service />
-        <About />
-        <Footer />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/Covid-care" element={<Covid />} />
+            </Routes>
+        </BrowserRouter>
     )
 }

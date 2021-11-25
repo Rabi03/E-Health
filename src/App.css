@@ -8,3 +8,15 @@ body{
     margin-bottom: 5%;
 
 }
+
+.itemCard{
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    cursor: pointer;
+}
+.itemCard:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
